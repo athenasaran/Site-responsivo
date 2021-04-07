@@ -1,0 +1,102 @@
+/*geral*/
+body {
+    font: normal 16px/22px Open Sans;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+/*TITULOS*/
+h2 {
+    font-size: 2.5em;
+}
+
+h2 span,
+h3 {
+    font-size: 1.5em;
+}
+
+/* hero book */
+@media (max-width:768px) {
+
+    .hero-book {
+        background-color: #7738c9;
+        padding: 90px 60px;
+        color: #fff;
+    }
+
+    .title-book h1 {
+        font-size: 4em;
+        color: #fff;
+        line-height: 0.5em;
+    }
+
+    .title-book h1 span {
+        font-size: 0.5em;
+        display: block;
+    }
+
+    .title-book h2 {
+        color: #44d1b6;
+        font-size: 0.8em;
+    }
+
+    .title-book p {
+        background-color: #44d1b6;
+        font-size: 1em;
+        padding: 15px;
+        display: inline-block;
+    }
+
+    .wrap-book {
+        position: relative;
+    }
+
+    .wrap-book p {
+        position: absolute;
+        top: -50px;
+        left: -30px;
+        background: #ffb300 no-repeat;
+        box-shadow: 0px 3px 6px #000000;
+        font-size: 0.7em;
+        border-radius: 50%;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 1.2em;
+        width: 68px;
+        height: 68px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrap-book .book {
+        width: 60%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-cat {
+        background: #ffb300;
+        width: 100%;
+        padding: 15px 0;
+        font-size: 1.5em;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        box-shadow: #7738c9 5px 10px 0px -3px,
+            rgb(255, 255, 255) 5px 10px,
+            #7738c9 16px 20px 0px -3px,
+            rgb(255, 255, 255) 16px 20px;
+    }
+
+    .wrap-cat {
+        padding: 5px;
+    }
+}
